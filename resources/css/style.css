@@ -1,0 +1,93 @@
+.navbar{
+    opacity: .9;
+    border-bottom: 2px solid #0c9cd1;
+}
+.navbar a{
+    font-size: 1.5rem;
+}
+.home{
+    margin-top: 110px;
+    min-height: 600px;
+    background-image: linear-gradient(rgba(7, 126, 201, 0.89), rgba(7, 126, 201, 0.6)), url(../img/mountains.jpg);
+}
+.home .container{
+    text-align: center;
+}
+.header-text{
+    padding-top: 60px;
+}
+.input-section{
+    background-color: #434242;
+}
+.input-section .container{
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+.inner-body{
+    margin: 40px auto;
+}
+.inner-body .text-body{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+#about, .list-group-item{
+    background-color: #f4f4f4;
+}
+.about-header::after{
+    content: " ";
+    width: 95%;
+    height: 1px;
+    background-color: lightgray;
+    display: block;
+    margin: 30px auto 50px auto;
+}
+.about-inner-section{
+    padding: 60px 0;
+}
+.author-header::after{
+    content: " ";
+    width: 105%;
+    height: 1px;
+    background-color: lightgray;
+    display: block;
+    margin: 30px auto 100px -10px;
+}
+.author-inner-section{
+    margin: 50px auto;
+}
+.card img{
+    margin-top: -50px;
+    margin-left: 25%;
+}
+.card .card-body{
+    margin-top: 20px;
+}
+.get-in-touch-section{
+    background-color: rgb(245, 245, 245);
+}
+.get-in-touch-section .inner-section{
+    padding: 50px 0;
+}
+
+@media only screen and (min-width: 992px) {
+    .get-in-touch-section img{
+       margin-top: 100px; 
+       margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .get-in-touch-section img{
+       margin-top: 30px; 
+    }
+}
+
+.card i{
+    color: white;
+}
+
+.card:hover{
+    background: aqua;
+}
+
